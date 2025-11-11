@@ -41,4 +41,12 @@ export const pizzaData = [
     photoName: "pizzas/prosciutto.jpg",
     soldOut: false,
   },
+  {
+    name: "Kevin",
+    ingredients: 'Sweats a lot. Gives off a "ham" vibe',
+    price: 36,
+    photoName:
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Cross_eyed.jpg",
+    soldOut: false,
+  },
 ];
