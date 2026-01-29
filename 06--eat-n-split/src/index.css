@@ -123,8 +123,16 @@ form {
   padding: 3.2rem 4rem;
 }
 
+.form-add-friend {
+  grid-template-columns: 1.3fr 1.5fr;
+  margin-bottom: 1.6rem;
+  padding: 1.2rem;
+  width: 100%;
+}
+
 label {
   font-weight: 500;
+  white-space: nowrap;
 }
 
 label::first-letter {
@@ -162,11 +170,4 @@ form h2 {
   text-transform: uppercase;
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
-}
-
-.form-add-friend {
-  grid-template-columns: 1.3fr 1.5fr;
-  margin-bottom: 1.6rem;
-  padding: 1.2rem;
-  width: 100%;
 }
